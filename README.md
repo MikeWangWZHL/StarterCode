@@ -1,3 +1,4 @@
+Forked from https://github.com/VALUE-Leaderboard/StarterCode
 
 # StarterCode for VALUE Benchmark
 This is the starter code for VALUE Benchmark [[website]](https://value-benchmark.github.io/), [[paper]](https://arxiv.org/abs/2106.04632).
