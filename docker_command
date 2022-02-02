@@ -1,0 +1,7 @@
+source launch_container.sh /shared/nas/data/m1/wangz3/video_language_pretraining_project/VALUE_StarterCode/download/txt_db \
+    /shared/nas/data/m1/wangz3/video_language_pretraining_project/VALUE_StarterCode/download/video_db \
+    /shared/nas/data/m1/wangz3/video_language_pretraining_project/VALUE_StarterCode/download/finetune \
+    /shared/nas/data/m1/wangz3/video_language_pretraining_project/VALUE_StarterCode/download/pretrained
+
+horovodrun -np 4 python train_retrieval.py --config ./test_codebase/train-yc2r-4gpu-config-ours.json \
+    --output_dir ./test_codebase/video_retrieval/yc2r
